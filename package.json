@@ -4,13 +4,21 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.11",
+    "bootstrap": "^5.2.3",
+    "graphql": "^16.6.0",
     "next": "13.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-pagination": "^1.0.0",
+    "react-router-dom": "^6.10.0"
   }
 }
