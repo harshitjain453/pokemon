@@ -263,7 +263,7 @@ export async function getStaticPaths() {
         }
       }
     `,
-    variables: { first: 8},
+    variables: { first: 151},
     fetchPolicy: "no-cache",
   });
 
